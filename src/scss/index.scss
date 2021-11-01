@@ -1,0 +1,44 @@
+@import "./typography";
+@import "./profile"; 
+main {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    // background-image: url("../assets/main-background.jpg");
+    background-color: white;
+    // background-size: cover;
+    // background-attachment: fixed;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgba($color: #0f3a7a, $alpha: 0.3);
+    .header {
+        width: 90%;
+        // height: 100%;
+    }
+    .header-item {
+    }
+}
+
+.main-section {
+    width: 90vw;
+    height: 99vh;
+    color: white;
+    margin: 16px;
+    background: rgba(37, 28, 28, 0.4);
+    backdrop-filter: saturate(180%) blur(10px);
+    border-radius: 16px;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    // box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    // filter: blur(10px);
+    // background: inherit;
+    background: rgba(0,0,0,0.8);
+  backdrop-filter: saturate(180%) blur(10px);
+}

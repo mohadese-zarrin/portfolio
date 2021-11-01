@@ -1,0 +1,40 @@
+.profile-section{
+    display: flex;
+    overflow: hidden;
+    .section{
+        display: flex;
+        align-items: center;
+        // border: 3px solid black ;
+    }
+    .profile-pic-container{
+        width:40% ;
+        height: 100%;
+        
+        .profile-pic{
+            width: 200px;
+            aspect-ratio: 1;
+            border-radius: 100px;
+            border: 1px solid white;
+            background-image: url('../assets/main-background.jpg');
+            background-size: cover;
+            background-color: yellowgreen;
+        }
+    }
+    .bio{
+        width: 60%;
+        height: 100%;
+        color: black;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        .text{
+            font-size: 18pt;
+            font-weight: 300;
+            line-height: 36pt;
+            
+        }
+        .highlight{
+            color: red;
+        }
+    }
+}
